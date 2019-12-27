@@ -1,0 +1,4 @@
+# Exsample CSP
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src https: 'self'; font-src data:; img-src data:; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none';"
+</IfModule>
